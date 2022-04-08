@@ -5,31 +5,42 @@
   <meta charset="utf-8" />
   <title> Helen webpage </title>
   <style>
+    body {
+      background-image: linear-gradient(#cbd0e6, white);
+    }
 
-    body{
-      background-image: linear-gradient(#cbd0e6, white) ;
-    }
-    img{
+    img {
       border-radius: 50%;
+      width: 200px;
+      height: 200px;
     }
+
     li {
       list-style: none;
       float: right;
+      transform: rotate(180deg);
+      height: 0px;
     }
 
     nav ul li {
       padding: 5px;
     }
+
+    .navigator {
+      transform: rotate(180deg);
+    }
+
     .out {
-      width: 100%;
+      width: auto;
       text-align: center;
-      height: 600px;
+      margin-bottom: 30px;
     }
 
     .in {
       display: inline-block;
       height: 30%;
       margin-top: 20%;
+      margin-left: 25%;
       text-align: center;
     }
 
@@ -43,18 +54,19 @@
       padding: 10px;
     }
   </style>
-
 </head>
 
 <body>
   <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About me</a></li>
-      <li><a href="#">Work experience</a></li>
-      <li><a href="#">Profile</a></li>
-      <li><a href="#">contact</a></li>
-    </ul>
+    <div class="navigator" style="float:right">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Work experience</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </div>
   </nav>
   <div class="out">
     <div class="in">
