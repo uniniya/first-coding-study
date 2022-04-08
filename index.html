@@ -9,10 +9,12 @@
       background-image: linear-gradient(#cbd0e6, white);
     }
 
-    img {
+    .helen {
       border-radius: 50%;
-      width: 200px;
-      height: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
 
     li {
@@ -33,25 +35,28 @@
     .out {
       width: auto;
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: auto;
     }
 
     .in {
       display: inline-block;
-      height: 30%;
+      height: auto;
       margin-top: 20%;
       margin-left: 25%;
       text-align: center;
     }
 
     input {
-      border: 1px solid black;
       width: 1cm;
       height: 1cm;
-      margin-top: 15%;
-      margin-left: 20%;
-      margin-right: 20%;
-      padding: 10px;
+      margin-top: 5%;
+      margin-left: 50%;
+      margin-right: 50%;
+      padding: 20px;
+    }
+    .phone {
+      margin: 50px;
+      opacity: 0.3;
     }
   </style>
 </head>
@@ -70,11 +75,13 @@
   </nav>
   <div class="out">
     <div class="in">
-      <img src="nini_profile.jpeg">
+      <img class="helen" src="nini_profile.jpeg">
       <h1>HYELIN JEONG</h1>
       <p>"Hello! I'm trader during the day, beginner developer at night"</p>
+      <a href="contact.html">
+        <img class="phone" src="https://mblogthumb-phinf.pstatic.net/MjAxNjExMDJfMjA1/MDAxNDc4MDg1MDExNDEy.IKnXLPf3gUqVYY9p_3Yor0wilTK0OZUq28S-IdmfcY8g.sme1IsbPQukFwgNdes7XOZG7ZUwuXsvIBYZKpnQodAAg.JPEG.koowq/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8_%EC%9B%90%ED%98%95_%EC%8B%AC%ED%94%8C%EC%95%84%EC%9D%B4%EC%BD%98-01.png?type=w2" width="50" height="50">
+      </a>
     </div>
-    <input type="image" value="contact">
   </div>
 </body>
 
