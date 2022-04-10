@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body {
+            background-color: black;
+            color: white
+        }
+
+        .upper {
+            display: flex;
+            justify-content: end;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 5px;
+        }
+
+        header {
+            text-align: center;
+            font-size: 80px;
+            margin-top: 150px;
+            margin-bottom: 20px;
+        }
+
+        header span:nth-child(1) {
+            color: #4285f4;
+        }
+
+        header span:nth-child(2) {
+            color: #ea4335;
+        }
+
+        header span:nth-child(3) {
+            color: #fbbc05;
+        }
+
+        header span:nth-child(4) {
+            color: #4285f4;
+        }
+
+        header span:nth-child(5) {
+            color: #34a853;
+        }
+
+        header span:nth-child(6) {
+            color: #ea4335;
+        }
+
+        .search input {
+            border-radius: 15px;
+            outline: none;
+            padding-left: 50px;
+
+        }
+        .search_whole {
+            display: flex;
+            justify-items: center;
+            background-color:aliceblue;
+        }
+        .quick_menu {
+            margin-top: 80px;
+            background-color: #fbbc05;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="upper">
+        <li>Gmail</li>
+        <li>이미지</li>
+        <li>menu</li>
+        <li>profile</li>
+    </nav>
+    <header>
+        <span>G</span><span>o</span><span>o</span><span>g</span><span>l<span><span>e</span>
+    </header>
+
+    <div class="search_whole">
+        <div class="magnifier" style="float:left;">
+            <img src="https://cliparting.com/wp-content/uploads/2016/07/Clipart-magnifying-glass-clipart-2.jpeg"
+                width="40" height="40">
+        </div>
+        <div class="search" style="float:left;">
+            <input type="text" placeholder="Google 검색 또는 URL 입력" ; style=width:600px;height:30px;padding:5px;>
+        </div>
+        <div class="mic" style="float:right;">
+            <input type="image" name="mic" src="https://logowik.com/content/uploads/images/google-mic-icon9492.jpg"
+                width="40" height="40">
+        </div>
+    </div>
+
+    <div class="quick_menu">
+        <div class="quick_menu_list">
+            <a href="https://www.naver.com/">
+                <li>naver</li>
+            </a>
+            <a href="https://www.youtube.com/">
+                <li>YOUTUBE</li>
+            </a>
+            <a href="https://www.naver.com/">
+                <li>naver</li>
+            </a>
+            <a href="https://nomadcoders.co/">
+                <li>nomadcoder</li>
+            </a>
+            <a href="">
+                <li>바로가기 추가</li>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

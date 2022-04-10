@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(#cbd0e6, white);
+    font-family: "Trirong", serif;
+}
+
+.helen {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    float: right;
+    transform: rotate(180deg);
+    height: 30px;
+    padding: 8px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: end;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    width: 300px;
+}
+
+.navigator {
+    transform: rotate(180deg);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.out {
+    width: auto;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.in {
+    display: inline-block;
+    height: auto;
+    margin-top: 20%;
+    margin-left: auto;
+    text-align: center;
+}
+
+input {
+    width: 1cm;
+    height: 1cm;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 20px;
+}
+
+.phone {
+    margin: 200px;
+    opacity: 1;
+}
