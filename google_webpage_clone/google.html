@@ -6,70 +6,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        body {
-            background-color: black;
-            color: white
-        }
-
-        .upper {
-            display: flex;
-            justify-content: end;
-        }
-
-        li {
-            list-style-type: none;
-            padding: 5px;
-        }
-
-        header {
-            text-align: center;
-            font-size: 80px;
-            margin-top: 150px;
-            margin-bottom: 20px;
-        }
-
-        header span:nth-child(1) {
-            color: #4285f4;
-        }
-
-        header span:nth-child(2) {
-            color: #ea4335;
-        }
-
-        header span:nth-child(3) {
-            color: #fbbc05;
-        }
-
-        header span:nth-child(4) {
-            color: #4285f4;
-        }
-
-        header span:nth-child(5) {
-            color: #34a853;
-        }
-
-        header span:nth-child(6) {
-            color: #ea4335;
-        }
-
-        .search input {
-            border-radius: 15px;
-            outline: none;
-            padding-left: 50px;
-
-        }
-        .search_whole {
-            display: flex;
-            justify-items: center;
-            background-color:aliceblue;
-        }
-        .quick_menu {
-            margin-top: 80px;
-            background-color: #fbbc05;
-        }
-    </style>
-
+    <link rel="stylesheet" href="google.css">
 </head>
 
 <body>
@@ -80,42 +17,44 @@
         <li>menu</li>
         <li>profile</li>
     </nav>
-    <header>
-        <span>G</span><span>o</span><span>o</span><span>g</span><span>l<span><span>e</span>
-    </header>
+    <div class="header">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" width="450">
+    </div>
 
-    <div class="search_whole">
-        <div class="magnifier" style="float:left;">
-            <img src="https://cliparting.com/wp-content/uploads/2016/07/Clipart-magnifying-glass-clipart-2.jpeg"
-                width="40" height="40">
-        </div>
-        <div class="search" style="float:left;">
-            <input type="text" placeholder="Google 검색 또는 URL 입력" ; style=width:600px;height:30px;padding:5px;>
-        </div>
-        <div class="mic" style="float:right;">
-            <input type="image" name="mic" src="https://logowik.com/content/uploads/images/google-mic-icon9492.jpg"
-                width="40" height="40">
-        </div>
+    <div class="container">
+        <form action="https://www.google.com/search" method="get" class="search_bar">
+            <button type="submit"><img src="https://cdn.icon-icons.com/icons2/2406/PNG/512/search_magnifier_icon_145939.png" alt=""></button>
+            <input type="text" placeholder="Google 검색 또는 URL 입력" name="q">
+            <button type="submit"><img src="마이크" alt=""></button>
+        </form>
+
     </div>
 
     <div class="quick_menu">
         <div class="quick_menu_list">
             <a href="https://www.naver.com/">
-                <li>naver</li>
+                <img src="https://littledeep.com/wp-content/uploads/2020/09/naver-icon-style.png" width="30" height="30">
             </a>
             <a href="https://www.youtube.com/">
-                <li>YOUTUBE</li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" width="30" height="30">
             </a>
             <a href="https://www.naver.com/">
-                <li>naver</li>
+                <img src="https://littledeep.com/wp-content/uploads/2020/09/naver-icon-style.png" width="30" height="30">
             </a>
             <a href="https://nomadcoders.co/">
-                <li>nomadcoder</li>
+                <img src="https://yt3.ggpht.com/ytc/AKedOLTUh5DI9RQkZcNRxzVqXMfyO2jB99F1k49ttgFbrA=s176-c-k-c0x00ffffff-no-rj" width="30" height="30">
             </a>
             <a href="">
-                <li>바로가기 추가</li>
+                <img src="https://www.pngall.com/wp-content/uploads/10/Plus-Symbol-Silhouette-PNG-HD-Image.png" width="30" height="30">
             </a>
         </div>
+    </div>
+    <div class="link_dis">
+        <li>naver</li>
+        <li>YOUTUBE</li>
+        <li>naver</li>
+        <li>nomadcoder</li>
+        <li>바로가기 추가</li>
     </div>
 
 </body>
