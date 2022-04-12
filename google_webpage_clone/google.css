@@ -1,18 +1,35 @@
+* {
+    font-family: sans-serif;
+}
 body {
     background-color: black;
     color: white
 }
+.upper_menu {
+    display: grid;
+    justify-content: right;
+}
 
 .upper {
-    display: flex;
-    justify-content: end;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
 }
-
-li {
-    list-style-type: none;
-    padding: 5px;
+.gmail {
+    display: grid;
+    justify-items: center;
 }
-
+.imag {
+    display: grid;
+    justify-items: center;
+}
+.menu {
+    display: grid;
+    justify-items: center;
+}
+.profile {
+    display: grid;
+    justify-items: center;
+}
 .header {
     display: flex;
     justify-content: center;
@@ -52,53 +69,60 @@ li {
     outline: none;
     padding: 18px 20px;
     font-size: 20px;
-    color: #cac7ff;
+    color: gray;
 }
 
 ::placeholder {
     color: grey;
 }
 
-.search_bar button {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: left;
+.fa-solid {
+    size: 100px;
+    color: black;
 }
 
-.search_bar button {
-    border: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 25px;
-    background: white;
-    cursor: pointer;
-}
-.quick_menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 10px 5px;
-}
-.quick_menu_list li {
-    float: right;
-    margin: 3px 30px;
-}
 img {
     background-color: white;
     padding: 10px;
     border-radius: 50px;
     margin: 0px 30px;
 }
-.link_dis {
-    display: flex;
-    justify-content: center;
+.quick{
+    color: black;
+    height: 100px;
+    width: auto;
+    display: grid;
+    justify-items: center;
     align-items: center;
-    margin: 3px;
-    padding: 10px;
-    color:azure;
+    margin: 15px 150px;
 }
-.link_dis li {
-    float: left;
-    margin: 0px 25px;
+.qlink{
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    color: white;
+}
+.box1{
+    background-color: deeppink;
+    height: 60px;
+}
+.box2 {
+    background-color: wheat;
+    height: 60px;
+}
+.box3 {
+    background-color: beige;
+    height: 60px;
+}
+.box4 {
+    background-color: darkkhaki;
+    height: 60px;
+}
+.box5 {
+    background-color: seagreen;
+    height: 60px;
 }
