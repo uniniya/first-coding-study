@@ -1,0 +1,10 @@
+@import url("header.css");
+@import url("body.css");
+@import url("footer.css");
+
+.container {
+    display: grid;
+    gap: 1px 1px;
+    width:100vw;
+    height: 100vh;
+}

@@ -1,0 +1,34 @@
+.header {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+    grid-template-columns: 50px 200px 3fr 2fr;
+    gap: 3px 5px;
+    border: 1px black solid;
+    height: 40px;
+}
+.header_a {
+    display: grid;
+    width: 100%;
+    border: 1px black solid;
+    height: 100%;
+}
+.header_b {
+    display: grid;
+    width: 100%;
+    border: 1px black solid;    
+    height: 100%;
+}
+.header_c {
+    display: grid;
+    width: 100%;
+    border: 1px black solid;
+    height: 100%;
+}
+.header_d {
+    display: grid;
+    width: 100%;
+    border: 1px black solid;
+    height: 100%;    
+}
