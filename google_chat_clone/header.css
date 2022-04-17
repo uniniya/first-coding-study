@@ -61,11 +61,15 @@
     display: flex;
     float: left;
     align-items: center;
-    position: relative;
+    justify-items: right;
     list-style-type: none;
-    margin: 10px 10px 10px 80px;
+    margin: 0px 10px 0px 145px;
+    padding: 0;
+    border: 1px purple solid;
 }
-.icons li:nth-child(1) {
-    position: relative;
-    height: 100%;
+.icons li {
+    border: 1px red solid;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
