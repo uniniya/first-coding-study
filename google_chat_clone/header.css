@@ -54,8 +54,15 @@
 .header_d {
     display: flex;
     width: 100%;
-    border: 1px black solid;
     height: 100%;
+}
+
+#activate {
+    width: 100%;
+    max-width: 100px;
+    border: gainsboro 1px solid;
+    border-radius: 50px;
+    padding: 9px 0px;
 }
 .icons {
     display: flex;
@@ -63,12 +70,10 @@
     align-items: center;
     justify-items: right;
     list-style-type: none;
-    margin: 0px 10px 0px 145px;
+    margin: 0px 5px 0px 120px;
     padding: 0;
-    border: 1px purple solid;
 }
 .icons li {
-    border: 1px red solid;
     align-items: center;
     padding: 0;
     margin: 0;
