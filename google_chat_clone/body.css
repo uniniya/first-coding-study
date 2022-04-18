@@ -26,7 +26,7 @@
 }
 
 .body_chat:nth-child(4) {
-    display: grid;
+    display: gird;
     grid-column: 1 / 4;
     grid-row: 2 / 4;
     width: 100%;
@@ -35,7 +35,13 @@
     text-align: center;
     list-style: none;
 }
-
+.test {
+    display: flex;
+    flex-direction: column;
+}
+.test span {
+    color: blue;
+}
 .body_chat:nth-child(5) {
     display: grid;
     grid-column: 1 / 1;
