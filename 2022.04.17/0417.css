@@ -1,2 +1,10 @@
 @import url("body.css");
 @import url("header.css");
+
+main {
+    display: grid;
+    justify-items: center;
+    height: 1000px;
+    width: auto;
+    margin: 60px 20px;
+}
