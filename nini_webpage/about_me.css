@@ -1,5 +1,4 @@
 body {
-    background-image: linear-gradient(#cbd0e6, white);
     font-family: "Trirong", serif;
     padding: 0;
     margin: 0;
@@ -28,28 +27,26 @@ body {
 }
 .container2 {
     display: grid;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
     justify-items: center;
 }
-section {
-    display: inline-block;
-}
-.container_float {
-    display: flex;
-    float: left;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+.box_1 {
+    display: grid;
+    background-color: skyblue;
+    height: 100%;
+    width:100%;
 }
 .helen {
     display: grid;
+    justify-items: center;
     margin-bottom: 0;
     margin-top: 50px;
-    width: 50%;
+    width: 80%;
     border-radius: 50%;
-    border-style:inset;
 }
-h3 {
-    padding: 0;
-    margin: 0;
+.box_2 {
+    display: grid;
+    height: 100%;
+    width:100%;
 }
