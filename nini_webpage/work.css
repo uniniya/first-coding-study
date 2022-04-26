@@ -6,7 +6,7 @@ body {
 .body_outter {
     display: grid;
     grid-template-rows: 50px 1fr;
-    height: 100vh;
+    height: 100%;
     width: auto;
 }
 .container1 {
@@ -40,9 +40,13 @@ body {
     width:100%;
     border-right: 1px gray dotted;
 }
+.experience {
+    display: inline-block;
+    justify-self: center;
+    justify-items:baseline;
+    height: 100%;
+}
 .helen {
-    display: grid;
-    justify-items: center;
     margin-bottom: 0;
     margin-top: 50px;
     width: 80%;
@@ -50,19 +54,26 @@ body {
 }
 .box_2 {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     height: 100%;
     width:100%;
     list-style: none;
 }
-.education {
-    display: grid;
-    padding: 0px 40px;
+.Ingang {
+    display: inline-block;
+    padding: 5px 40px;
     height: 100%;
     border-bottom: 1px gray dotted;
 }
-.interest {
-    display: grid;
-    padding: 0px 40px;
+.Chunyang {
+    display: inline-block;
+    padding: 5px 40px;
     height: 100%;
+    border-bottom: 1px gray dotted;
+}
+.InterAsia {
+    display: inline-block;
+    padding: 5px 40px;
+    height: 100%;
+    border-bottom: 1px gray dotted;
 }
