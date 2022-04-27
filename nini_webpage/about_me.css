@@ -25,6 +25,20 @@ body {
     gap: 20px;
     font-size: 1em;
 }
+.menu li {
+    padding: 3px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:hover {
+    background-color: #E3E8EB;
+    border-radius: 4px;
+}
+
 .container2 {
     display: grid;
     grid-template-columns: 1fr 3fr;
